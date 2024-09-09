@@ -7,6 +7,12 @@ pagefind: true
 To use NativeLink, you need to migrate to a build system that supports the
 [remote execution protocol](https://github.com/bazelbuild/remote-apis/blob/main/build/bazel/remote/execution/v2/remote_execution.proto).
 
+<p align="center">
+  <a href="https://youtu.be/8mfpydRwu00">
+      <img src="https://trace-github-resources.s3.us-east-2.amazonaws.com/harper-90-thumbnail.webp" alt="Remote Exection Protocol Explained" loading="lazy" width="480" />
+  </a>
+</p>
+
 Many common build systems, such as CMake and Gradle, don't support
 remote execution. The most common reasons people move off them is to set up
 a monorepo, but NativeLink combined with the build systems mentioned below
